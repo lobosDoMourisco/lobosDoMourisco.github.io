@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<title>Festa dos Loubos do Mourisco</title>
+		<style>
+		@font-face {
+		  font-family: 'VCR';
+		  src: url('fonts/VCR.ttf');
+		}
+
+			#musicas{
+				align-content: center;
+				text-align: center;
+				margin: auto;
+				width: 100%;
+			}
+		  audio { width: 250px; }
+			body {
+				overflow: hidden;
+				background-color:black;
+				user-select: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-o-user-select: none;
+				-ms-user-select: none;
+				font-family: 'VCR';
+			}
+
+			a{
+				color:#ABE2F8;
+				text-decoration: none;
+			}
+
+			a:hover{
+				 color:#F687EF;
+			}
+
+			a:visited{
+				 color:#F687EF;
+			}
+
+			.texto-convite{
+				width: 80%;
+				margin: auto;
+				font-size: 35px;
+				text-align: center;
+				font-family: 'VCR';
+
+			}
+			.vaporwave{
+				background-image: url("http://www.fpiec.pl/uploads/media_items/wapory.1120.480.c.jpg");
+				background-repeat: no-repeat;
+				height: 350px;
+				width: 80%;
+				margin: auto;
+				margin-top: 10px;
+				border-radius: 50px;
+
+			}
+
+			.vapor-blue{
+				color: #ABE2F8;
+				font-family: 'VCR';
+			}
+
+			.vapor-pink{
+				color: #F687EF;
+				font-family: 'VCR';
+			}
+		</style>
+	</head>
+
+
+
+	<body>
+
+		<a style="z-index:1000;" id="toggle-music" href="#" onclick="fToggleMusic()"> ♫ Jukebox ♫ </a>
+
+	<div id="canvas"></div>
+
+	<div id="musicas" style="display:none;">
+		<audio controls>
+	  <source src="songs/420.mp3" type="audio/mpeg">
+				Droga :( Seu browser nao suporta esse tipo de musica.
+		</audio>
+		<audio controls>
+	  <source src="songs/eotb.mp3" type="audio/mpeg">
+				:(
+		</audio>
+		<audio controls>
+	  <source src="songs/hmbanp.mp3" type="audio/mpeg">
+				:(
+		</audio>
+		<audio controls>
+		<source src="songs/ata.mp3" type="audio/mpeg">
+				:(
+		</audio>
+		<audio controls>
+		<source src="songs/ab.mp3" type="audio/mpeg">
+				:( ...
+		</audio>
+	</div>
+
+	<div class="vaporwave">
+
+	</div>
+
+		<div class="texto-convite">
+	<p class="vapor-blue">
+		 - L O B O S  &nbsp D  O  &nbsp  M O U R I S C O -
+	</p>
+
+	<p style="margin-bottom:0px;" class="vapor-pink">
+		﻿R u a &nbsp A l m i r a n t e &nbsp T a m a n d a r é &nbsp 5 3 / 7 0 1
+	</p>
+	<p style="margin-top:0px;" class="vapor-pink">
+	  1 9 / D e z &nbsp - &nbsp 2 0 : 0 0
+	</p>
+		<br>
+
+
+
+
+
+	</div>
+
+	<script src="js/protoclass.js"></script>
+	<script src='js/box2d.js'></script>
+	<script src='js/Main.js'></script>
+
+	<!-- <iframe width="0" height="0" src="https://www.youtube.com/embed/YLOkerOtkwg?autoplay=1" frameborder="0" allowfullscreen></iframe> -->
+
+
+
+	</body>
+
+</html>
