@@ -306,12 +306,12 @@ return false;
 
 
 	if(filename === "c.jpg"){
-		sizeY = 35;
+		sizeY = 32;
 		sizeX = sizeY * 2.36363636;
 	}
 	else{
-		sizeY = 330;
-		sizeX = 330;
+		sizeY = 250;
+		sizeX = 250;
 	}
 
 	console.log(sizeX, sizeY)
